@@ -1,0 +1,4 @@
+﻿*.db
+zugetextet.formulare/app.db-shm
+zugetextet.formulare/app.db-wal
+.vs

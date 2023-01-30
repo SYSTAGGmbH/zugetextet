@@ -1,0 +1,62 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+body {
+  /* font-family: "Inter", sans-serif; */
+  font-size: 16px;
+}
+
+.dx-datagrid .dx-header-filter {
+  position: relative;
+  color: #f8669d;
+  font: 14px/1 DXIcons;
+}
+
+.dx-header-filter-empty {
+  color: rgba(149,149,149,.5) !important;
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #000;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+}
+
+.centerLoader {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*
+pink = #f8669d;
+schwarz = #000;
+grau = #dddddd;
+ */

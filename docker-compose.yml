@@ -1,0 +1,12 @@
+services:
+  zugetextet:
+    image: [image_tag]
+    ports:
+      - 80:5000
+    volumes:
+      - [volume_name]:/app/App_Data/
+    env_file:
+      - .env
+
+volumes:
+  [volume_name]:

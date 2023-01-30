@@ -1,0 +1,47 @@
+.fileuploader-container {
+  border: 1px solid #d3d3d3;
+  margin: 20px 20px 0 20px;
+}
+
+.dx-fileuploader-input-label {
+  overflow: visible !important;
+  text-overflow: initial !important;
+}
+
+.dx-fileuploader-input-container {
+  overflow: visible !important;
+}
+
+.underage-file-upload {
+  padding: 0 0 10px 0 !important;
+}
+
+.required-star {
+  color: #c9302c;
+}
+
+/*
+  remove padding left of required asterisk for checkbox label
+*/
+.dx-field-item-label-location-right {
+  padding-left: 0 !important;
+}
+
+/* 
+  width needs to be fit to content for displaying
+  the required asterisk for checkboxes correctly
+*/
+.checkbox {
+  flex-grow: 0 !important;
+  width: fit-content !important;
+}
+
+.dx-checkbox-indeterminate .dx-checkbox-icon::before {
+  background-color: white !important;
+}
+
+.required-disclaimer {
+  padding: 1rem 0 1rem 0;
+  font-size: 15px;
+  font-style: italic;
+}

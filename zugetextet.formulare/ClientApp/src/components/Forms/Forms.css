@@ -1,0 +1,15 @@
+#data-grid-demo {
+    min-height: 700px;
+}
+
+.button-margin {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.align-vertical {
+  vertical-align: middle !important;
+}
+
+.dx-command-edit {
+  vertical-align: middle !important;
+}
