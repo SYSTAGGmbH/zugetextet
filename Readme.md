@@ -30,7 +30,7 @@
 
   [![.Net][.NET]][.NET-url]
   [![React][React.js]][React-url]
-  [![DevExtreme][DevExtreme]][DevExtreme-url]
+  <a href="https://js.devexpress.com/"><img src="https://tinyurl.com/devextreme" alt="DevExtreme"></a>
   [![Bootstrap][Bootstrap.com]][Bootstrap-url]
   
 
